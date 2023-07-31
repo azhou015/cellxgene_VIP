@@ -389,7 +389,7 @@ def SPATIAL(data):
       translatey = -(1+translatey) + height*scale
     else:
       flip = False
-      translatey = -(1+translatey)
+      translatey = -(1+translatey) + height*scale
 
     returnD = [{'translatex':translatex,'translatey':translatey,'scale':scale}]
 
